@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>Calculator</header>
+
+    <div class="screen">
+      <div id="equationScreen">
+        <input type="text" placeholder="Enter equation..." id="equation" />
+      </div>
+      <div id="answerScreen">
+        <input type="text" id="ans" hidden disabled />
+      </div>
+    </div>
+
+    <div class="btns">
+      <div id="firstRow">
+        <input type="button" value="7" id="seven" />
+        <input type="button" value="8" id="eight" />
+        <input type="button" value="9" id="nine" />
+        <input type="button" value="/" id="divide" />
+      </div>
+      <div id="secondRow">
+        <input type="button" value="4" id="four" />
+        <input type="button" value="5" id="five" />
+        <input type="button" value="6" id="six" />
+        <input type="button" value="*" id="multiply" />
+      </div>
+      <div id="thirdRow">
+        <input type="button" value="1" id="one" />
+        <input type="button" value="2" id="two" />
+        <input type="button" value="3" id="three" />
+        <input type="button" value="+" id="period" />
+      </div>
+      <div id="fourthRow">
+        <input type="button" value="Clear" id="btnClear" />
+        <input type="button" value="0" id="zero" />
+        <input type="button" value="=" id="equal" />
+        <input type="button" value="-" id="minus" />
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
